@@ -1,0 +1,14 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+            fetch("http://localhost:8000").then((r) => {
+                return r.json()  
+            }).then((data) => {
+                console.log(data)
+            })
+        </script>
+    </body>
+</html>
